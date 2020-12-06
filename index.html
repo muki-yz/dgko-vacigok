@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hayat Çok Garip</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/icon type" />
+</head>
+
+<body>
+
+  <div class="tebrik">
+   <!-- <img src="cicek.gif" alt="gif var burda" height="100">-->
+    <h3>Doğum Günün Kutlu Olsun Vacigok</h3>
+  </div>
+  <div>
+    
+    <ul>
+      
+      <li><button class="gizli_button" onclick='document.getElementById("video").innerHTML=video'>
+          Videoyu Oynat
+        </button></li>
+      <li><button class="gizli_button" onclick='document.getElementById("video").innerHTML=music'>
+          Müziği Oynat
+        </button></li>
+    </ul>
+
+  </div>
+
+  <div class="center" id="video">
+    <!--<iframe width="480" height="360" src="https://www.youtube.com/embed/DySnlAF0cEc?autoplay=1&mute=0">
+    </iframe>-->
+  </div>
+  <div class="main_nav_blok">
+    <ul>
+      <li class="main_nav">
+        <a href="/birthday/imza.html"><button class="button">Çizimlerine İmzanı Ekle</button></a>
+      </li>
+      <li class="main_nav">
+        <a href="/birthday/twitter.html"><button class="button">Twitter Çizimlerin</button></a>
+      </li>
+    </ul>
+  </div>
+
+
+  <script>
+    var music = ' <div id="player" class="music"><audio controls autoplay data-role="audio-player" style=" width:300px;"><source src="music.mp3" type="audio/mpeg" />Your browser does not support the audio element.</audio></div>'
+    var video = '<iframe width="480" height="360" src="https://www.youtube.com/embed/DySnlAF0cEc?autoplay=1&mute=0"></iframe>'
+  </script>
+</body>
+
+</html>
