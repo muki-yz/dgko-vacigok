@@ -10,11 +10,12 @@ body{
 
 }
 header{ /*  */
-  border: 20px solid #d7e4dd;
+  border: 3px solid #d7e4dd;
   border-color: #BB2DE8 #68B799 #E96D67 rgb(238, 238, 26);/* transparanlık için 0.2 gibi değer ekle*/
   border-style: dashed;
 }
 
-footer{
+h1{
   color: #68B799;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
