@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hayat Çok Garip</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/icon type" />
+    <script>
+      var music =
+        '<div id="player" align="center" class="music"><audio controls autoplay data-role="audio-player" ><source src="media/castleinthesky.mp3" type="audio/mpeg" />Your browser does not support the audio element.</audio></div>';
+      var video =
+        '<p align="center"><iframe width="480"  height="360" style="border:none;" src="https://www.youtube.com/embed/DySnlAF0cEc?autoplay=1&mute=0"></iframe></p>';
+    </script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hayat Çok Garip</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" type="image/icon type" />
-</head>
+  </head>
 
-<body>
-  
+  <body>
     <div class="tebrik">
-      <h3>Vacigok! Doğum Günün Kutlu Olsun </h3><!-- <img src="media/cicek.gif" alt="gif var burda">-->
+      <h3>Vacigok! Doğum Günün Kutlu Olsun</h3>
+      <!-- <img src="media/cicek.gif" alt="gif var burda">-->
     </div>
 
-
-  <div class="dilekler">
-    <h1>Umarım yeni yaşın sana daha çok mutluluk getirir (∩^o^)⊃━☆゜.*</h1>
-  </div>  
-  <div class="center" id="oynatma-yeri">
-    <div id="player" align="center" class="music">
-      <audio  autoplay data-role="audio-player" >
-        <source src="media/castleinthesky.mp3" type="audio/mpeg" />Your browser does not support the audio element.</audio>
+    <div class="dilekler">
+      <h1>
+        Umarım yeni yaşın sana daha çok mutluluk getirir (∩^o^)⊃━☆゜.*
+      </h1>
     </div>
-  </div>
+    <div class="center" id="oynatma-yeri">
+      <div id="player" align="center" class="music">
+        <audio autoplay data-role="audio-player">
+          <source src="media/castleinthesky.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
 
-  <div class="oynatıcı-butonlar">
-      <button class="gizli_button" onclick='document.getElementById("oynatma-yeri").innerHTML=video'>
+    <div class="oynatıcı-butonlar">
+      <button
+        class="gizli_button"
+        onclick='document.getElementById("oynatma-yeri").innerHTML=video'
+      >
         Videoyu Oynat
       </button>
-      <button class="gizli_button" onclick='document.getElementById("oynatma-yeri").innerHTML=music'>
+      <button
+        class="gizli_button"
+        onclick='document.getElementById("oynatma-yeri").innerHTML=music'
+      >
         Müziği Oynat
       </button>
     </div>
-    
-  
-
- 
-
-  <script>
-    var music =
-      '<div id="player" align="center" class="music"><audio controls autoplay data-role="audio-player" ><source src="media/castleinthesky.mp3" type="audio/mpeg" />Your browser does not support the audio element.</audio></div>'
-    var video =
-      '<p align="center"><iframe width="480"  height="360" style="border:none;" src="https://www.youtube.com/embed/DySnlAF0cEc?autoplay=1&mute=0"></iframe></p>'
-    
-  </script>
-
-
-</body>
-
+  </body>
 </html>
-
 
 <!--
      <div class="main_nav_blok">

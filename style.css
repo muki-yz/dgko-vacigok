@@ -7,15 +7,14 @@ body{
   background-image:url("media/canva.gif");
   background-size:cover;
   background-repeat: no-repeat;
+  back
 
-}
-header{ /*  */
-  border: 3px solid #d7e4dd;
-  border-color: #BB2DE8 #68B799 #E96D67 rgb(238, 238, 26);/* transparanlık için 0.2 gibi değer ekle*/
-  border-style: dashed;
 }
 
 h1{
   color: #68B799;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+  background-image: url("media/canva.gif");
 }
