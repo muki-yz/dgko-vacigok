@@ -7,6 +7,9 @@
   justify-content: space-between;
 }
 .tebrik h3{
+  border: 3px solid #d7e4dd;
+  border-color: #BB2DE8 #68B799 #E96D67 rgb(238, 238, 26);/* transparanlık için 0.2 gibi değer ekle*/
+  border-style: dashed;
   color: aliceblue;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 3px;
