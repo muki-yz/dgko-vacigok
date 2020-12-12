@@ -6,6 +6,7 @@ body{
   background-color: black;
   background-image:url("media/canva.gif");
   background-size:cover;
+  background-repeat: no-repeat;
 
 }
 header{ /*  */
