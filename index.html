@@ -10,35 +10,45 @@
 </head>
 
 <body>
-  <div class="tebrik">
-    <ul>
-      <li><img src="cicek.gif" alt="gif var burda" height="100">
-      </li>
-      <li>
-        <h3 style="background-color: rgb(77, 148, 240);">Doğum Günün Kutlu Olsun Vacigok</h3>
-      </li>
-    </ul>
+  <header>
+    <div class="tebrik">
+      <h3>Vacigok! Doğum Günün Kutlu Olsun </h3><!-- <img src="media/cicek.gif" alt="gif var burda">-->
+    </div>
+  </header>
 
-  </div>
-  <div>
 
-    <ul>
-
-      <li><button class="gizli_button" onclick='document.getElementById("video").innerHTML=video'>
-          Videoyu Oynat
-        </button></li>
-      <li><button class="gizli_button" onclick='document.getElementById("video").innerHTML=music'>
-          Müziği Oynat
-        </button></li>
-    </ul>
-
+  <div class="oynatıcı-butonlar">
+    <button class="gizli_button" onclick='document.getElementById("oynatma-yeri").innerHTML=video'>
+      Videoyu Oynat
+    </button>
+    <button class="gizli_button" onclick='document.getElementById("oynatma-yeri").innerHTML=music'>
+      Müziği Oynat
+    </button>
+    <button class="gizli_button" onclick='document.getElementById("oynatma-yeri").innerHTML=music'>
+      Müziği Durdur
+    </button>
   </div>
 
-  <div class="center" id="video">
-    <!--<iframe width="480" height="360" src="https://www.youtube.com/embed/DySnlAF0cEc?autoplay=1&mute=0">
-    </iframe>-->
-  </div>
-  <div class="main_nav_blok">
+  <div class="center" id="oynatma-yeri"></div>
+<footer>
+  <h1>hehe</h1>
+</footer>
+
+  <script>
+    var music =
+      '<div id="player" align="center" class="music"><audio controls autoplay data-role="audio-player" ><source src="media/music.mp3" type="audio/mpeg" />Your browser does not support the audio element.</audio></div>'
+    var video =
+      '<p align="center"><iframe width="480"  height="360" style="border:none;" src="https://www.youtube.com/embed/DySnlAF0cEc?autoplay=1&mute=0"></iframe></p>'
+  </script>
+
+
+</body>
+
+</html>
+
+
+<!--
+     <div class="main_nav_blok">
     <ul>
       <li class="main_nav">
         <a href="/birthday/imza.html"><button class="button">Çizimlerine İmzanı Ekle</button></a>
@@ -48,14 +58,15 @@
       </li>
     </ul>
   </div>
+    
+    
+    <div class="tebrik">
+    <ul>
+      <li><img src="cicek.gif" alt="gif var burda" height="100">
+      </li>
+      <li>
+        <h3 style="background-color: rgb(77, 148, 240);">Doğum Günün Kutlu Olsun Vacigok</h3>
+      </li>
+    </ul>
 
-
-  <script>
-    var music =
-      ' <div id="player" class="music"><audio controls autoplay data-role="audio-player" style=" width:300px;align:right;"><source src="music.mp3" type="audio/mpeg" />Your browser does not support the audio element.</audio></div>'
-    var video =
-      '<p align="center"><iframe width="480"  height="360" style="border:none;" src="https://www.youtube.com/embed/DySnlAF0cEc?autoplay=1&mute=0"></iframe></p>'
-  </script>
-</body>
-
-</html>
+  </div>-->
